@@ -1,5 +1,10 @@
 :root {
     /* FONT */
     --font-dm-sans: "Dm Sans", sans-serif;
+
+    /* COLOR */
+
     --primary-color: #121212;
+    --bg-arrow-color: rgba(0, 0, 07); 
+
 }
