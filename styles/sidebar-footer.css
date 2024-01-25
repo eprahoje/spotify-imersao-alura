@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -12,12 +13,12 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: var(--primary-color);
     border-radius: 8px;
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    background: var(--primary-color);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -39,7 +40,6 @@ body {
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif;
     font-weight: 600;
     font-size: 1rem;
 }
@@ -51,7 +51,7 @@ body {
     padding: 4px 8px;
     margin-top: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--primary-color);
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
@@ -75,7 +75,6 @@ body {
     text-decoration: none;
     text-align: center;
     text-transform: none;
-    font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 1rem;
 }
@@ -113,7 +112,6 @@ body {
 .library__playlist__content .text {
     color: #fff;
     padding: 0 0 14px 0;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library__playlist__content .title {
@@ -135,7 +133,6 @@ body {
     width: 113px;
     margin-top: 12px;
     padding: 10px;
-    font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
     text-decoration: none;
@@ -150,7 +147,6 @@ body {
 .library .cookies a {
     color: #b3b3b3;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif;
     font-size: 0.7rem;
     font-weight: 500;
 }
@@ -189,7 +185,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: "DM Sans", sans-serif;
     color: #fff;
 }
 
@@ -209,7 +204,6 @@ body {
     padding: 14px 30px;
     color: #000;
     text-align: center;
-    font-family: "DM Sans", sans-serif;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
