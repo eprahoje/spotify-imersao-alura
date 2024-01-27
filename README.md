@@ -23,7 +23,6 @@ Foi criada uma API local em um arquivo .JSON (api-artists) com alguns artistas p
 * `CSS`
 * `Flex-box`
 * `JavaScript`
-* `React`
 
 ## 📁 Acesso ao projeto
 Você pode acessar o deploy no Vercel: https://spotify-react-inky.vercel.app
