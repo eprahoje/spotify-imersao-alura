@@ -66,6 +66,7 @@ body {
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
+    height: 62vh;
 }
 
 .library .library__content {
@@ -182,7 +183,7 @@ body {
     color: #000;
     border: 0;
     border-radius: 20px;
-    width: 113px;
+    width: 130px;
     margin-top: 12px;
     padding: 10px;
     font-weight: 700;
@@ -197,7 +198,7 @@ body {
 }
 
 .library .legal-links {
-    margin: 32px 0;
+    margin: 34px 0;
     padding: 0 24px;
     text-align: start;
 }
@@ -224,7 +225,7 @@ body {
     align-items: center;
     width: 170px;
     padding: 8px;
-    margin: 8px;
+    margin: 10px;
     border:  0.5px solid #878787;
     color: #fff;
     border-radius: 20px;
