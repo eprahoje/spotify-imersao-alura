@@ -37,12 +37,25 @@ body {
     padding: 10px 0;
 }
 
-.sidebar nav ul li a {
-    color: #b3b3b3;
+.sidebar-icon-text {
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
+    color: #b3b3b3;
+    transition: all 200ms ease-in-out;
+
 }
+
+.sidebar-icon__text {
+    margin-left: 10px;
+}
+
+.sidebar-icon-text:hover {
+    color: white;
+}
+
+
+
 
 .library {
     display: flex;
@@ -79,6 +92,10 @@ body {
     font-size: 1rem;
 }
 
+.library .library__content__button:hover {
+    color: white;
+}
+
 .library .library__content__button .fa {
     font-size: 20px;
     margin-right: 10px;
@@ -86,9 +103,46 @@ body {
     padding-right: 8px;
 }
 
-.library .library__content .fa-plus {
+.fa-plus {
+    position: relative;
+    display: inline-block;
     margin: 24px 10px;
+    cursor: pointer;
+
 }
+
+.fa-plus .fa-plus__tooltip {
+    visibility: hidden;
+    width: 150px;
+    background-color: #1c1c1c;
+    filter: drop-shadow(0 0 0.75rem black);
+    font-family: var(--font-dm-sans);
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding: 8px 5px;
+    border: 6px;
+    border-radius: 5px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 180%;
+    left: 60%;
+    margin-left: -75px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.fa-plus:hover {
+    color: white;
+}
+
+.fa-plus:hover .fa-plus__tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 .library__playlist {
     display: flex;
