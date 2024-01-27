@@ -1,4 +1,4 @@
-# Spotify - Clone feito com HTML, CSS e Javascript
+# <img src="./assets/icons/favicon.png" height =22 /> Spotify - Clone feito com HTML, CSS e Javascript
 ![Página clone do Spotify](https://github.com/eprahoje/spotify-imersao-alura/assets/143037296/a1d8d487-95e6-4ade-8514-0a06b8445b3f)
 
 
@@ -8,7 +8,7 @@
   <img loading="lazy" alt="Badge JavaScript" src="https://img.shields.io/badge/JavaScript-FFDE08">
 </p>
 
-Um site clone do Spotify desenvolvido com as principais linguagens Front-End do mercado. Desenvolvido com fins de estudo na primeira Imersão Front-End de 2024 da Alura.
+Um site clone do [Spotify](https://open.spotify.com/intl-pt?) desenvolvido com as principais linguagens Front-End do mercado. Desenvolvido com fins de estudo na primeira Imersão Front-End de 2024 da [Alura](https://www.alura.com.br).
 
 ## ⌨️ API
 Foi criada uma API local em um arquivo .JSON (api-artists) com alguns artistas para testar a barra de pesquisa. 
@@ -25,7 +25,7 @@ Foi criada uma API local em um arquivo .JSON (api-artists) com alguns artistas p
 * `JavaScript`
 
 ## 📁 Acesso ao projeto
-Você pode acessar o deploy no Vercel: https://spotify-imersao-alura.vercel.app
+Você pode acessar o deploy no [Vercel](https://vercel.com/): https://spotify-imersao-alura.vercel.app
 
 ## 💻 LinkedIn: 
 https://www.linkedin.com/in/gabriel-rodrigues-7227a8260/
