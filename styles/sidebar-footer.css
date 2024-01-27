@@ -55,8 +55,6 @@ body {
 }
 
 
-
-
 .library {
     display: flex;
     justify-content: space-between;
@@ -194,18 +192,27 @@ body {
     cursor: pointer;
 }
 
-.library .cookies {
-    margin: 25px 20px;
+.library .legal-links {
+    margin: 32px 0;
+    padding: 0 24px;
+    text-align: start;
 }
 
-.library .cookies a {
+.library .legal-links .legal-links__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.library .legal-links a {
+    margin-top: 16px;
+    margin-right: 16px;
     color: #b3b3b3;
     text-decoration: none;
     font-size: 0.7rem;
     font-weight: 500;
 }
 
-.library .cookies a:hover {
+.library .legal-links a:hover {
     border-bottom: 1px solid #b3b3b3;
 }
 
@@ -220,6 +227,11 @@ body {
     font-weight: bold;
     background-color: transparent;
     cursor: pointer;
+}
+
+.languages .languages__button:hover {
+    border-color: white;
+    transform: scale(1.1);
 }
 
 .disclaimer-premium {
