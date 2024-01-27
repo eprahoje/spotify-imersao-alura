@@ -25,7 +25,7 @@ Foi criada uma API local em um arquivo .JSON (api-artists) com alguns artistas p
 * `JavaScript`
 
 ## 📁 Acesso ao projeto
-Você pode acessar o deploy no Vercel: https://spotify-react-inky.vercel.app
+Você pode acessar o deploy no Vercel: https://spotify-imersao-alura.vercel.app
 
 ## 💻 LinkedIn: 
 https://www.linkedin.com/in/gabriel-rodrigues-7227a8260/
