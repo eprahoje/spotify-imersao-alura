@@ -82,14 +82,25 @@
     margin-right: 32px;
 }
 
+.header__login .subscribe:hover {
+  cursor: pointer;
+  color: #fff;
+  transform: scale(1.06);
+}
+
 .header__login .login {
-    width: 100px;
-    height: 48px;
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 40px;
-    border: none;
+  width: 100px;
+  height: 48px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 40px;
+  border: none;
+}
+
+.header__login .login:hover {
+  cursor: pointer;
+  transform: scale(1.06);
 }
 
 

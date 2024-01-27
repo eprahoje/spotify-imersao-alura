@@ -192,6 +192,10 @@ body {
     cursor: pointer;
 }
 
+.library__playlist__content .playlist__content__button:hover {
+    transform: scale(1.05);
+}
+
 .library .legal-links {
     margin: 32px 0;
     padding: 0 24px;
@@ -231,7 +235,7 @@ body {
 
 .languages .languages__button:hover {
     border-color: white;
-    transform: scale(1.1);
+    transform: scale(1.06);
 }
 
 .disclaimer-premium {
@@ -256,6 +260,7 @@ body {
 
 
 .disclaimer-premium__content__text .disclaimer-text {
+    cursor: pointer;
     font-size: 0.9rem;
 }
 
@@ -273,4 +278,8 @@ body {
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.disclaimer-premium .disclaimer-premium__content__button:hover {
+    transform: scale(1.06);
 }
