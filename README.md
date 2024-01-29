@@ -1,5 +1,6 @@
 # <img src="./assets/icons/favicon.png" height =22 /> Spotify - Clone feito com HTML, CSS e Javascript
-![Página clone do Spotify](https://github.com/eprahoje/spotify-imersao-alura/assets/143037296/a1d8d487-95e6-4ade-8514-0a06b8445b3f)
+![Preview da página](https://github.com/eprahoje/spotify-imersao-alura/assets/143037296/7d11e7bd-af16-4cc1-a566-9af1ba9dfddc)
+
 
 
 <p>
